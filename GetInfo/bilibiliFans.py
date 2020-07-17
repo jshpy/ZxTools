@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!//usr/bin/env python3
 import requests
 import re
@@ -36,6 +37,9 @@ def getLike(cont):
     return res
 
 
+=======
+#!/usr/bin/env python3
+>>>>>>> 3090dd6c0651dc7cda81ba1215da0efd3e94b257
 
 if __name__ == "__main__":
     cont = getContent('https://api.bilibili.com/x/relation/stat?vmid=97400150&jsonp=jsonp&callback=__jp3', headers=headers)
